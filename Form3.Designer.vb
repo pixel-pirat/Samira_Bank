@@ -488,6 +488,7 @@ Partial Class Form3
         Controls.Add(Guna2CustomGradientPanel1)
         Name = "Form3"
         Text = "Dashboard"
+        WindowState = FormWindowState.Maximized
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel1.PerformLayout()
         Guna2CustomGradientPanel2.ResumeLayout(False)

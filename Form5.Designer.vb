@@ -555,6 +555,7 @@ Partial Class Form5
         Controls.Add(Guna2CustomGradientPanel1)
         Name = "Form5"
         Text = "Accounts"
+        WindowState = FormWindowState.Maximized
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel1.PerformLayout()
         Guna2CustomGradientPanel8.ResumeLayout(False)

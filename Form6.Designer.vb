@@ -28,6 +28,11 @@ Partial Class Form6
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form6))
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
@@ -56,16 +61,13 @@ Partial Class Form6
         Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form6))
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Guna2CustomGradientPanel3 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2CustomGradientPanel8 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Guna2Button11 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button10 = New Guna.UI2.WinForms.Guna2Button()
@@ -82,8 +84,6 @@ Partial Class Form6
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
         Guna2CustomGradientPanel1.SuspendLayout()
         Guna2CustomGradientPanel8.SuspendLayout()
         CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
@@ -155,6 +155,54 @@ Partial Class Form6
         Guna2CustomGradientPanel8.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2CustomGradientPanel8.Size = New Size(1499, 812)
         Guna2CustomGradientPanel8.TabIndex = 3
+        ' 
+        ' Guna2Button9
+        ' 
+        Guna2Button9.BorderColor = Color.DarkGray
+        Guna2Button9.BorderRadius = 20
+        Guna2Button9.BorderThickness = 2
+        Guna2Button9.CustomizableEdges = CustomizableEdges3
+        Guna2Button9.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button9.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button9.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button9.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button9.FillColor = Color.Blue
+        Guna2Button9.Font = New Font("Segoe UI", 10F)
+        Guna2Button9.ForeColor = Color.White
+        Guna2Button9.Image = CType(resources.GetObject("Guna2Button9.Image"), Image)
+        Guna2Button9.ImageAlign = HorizontalAlignment.Right
+        Guna2Button9.ImageSize = New Size(30, 30)
+        Guna2Button9.Location = New Point(1308, 33)
+        Guna2Button9.Name = "Guna2Button9"
+        Guna2Button9.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Button9.Size = New Size(160, 53)
+        Guna2Button9.TabIndex = 6
+        Guna2Button9.Text = "Grant Loan"
+        Guna2Button9.TextAlign = HorizontalAlignment.Left
+        ' 
+        ' Guna2Button12
+        ' 
+        Guna2Button12.BorderColor = Color.DarkGray
+        Guna2Button12.BorderRadius = 20
+        Guna2Button12.BorderThickness = 2
+        Guna2Button12.CustomizableEdges = CustomizableEdges5
+        Guna2Button12.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button12.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button12.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button12.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button12.FillColor = Color.Blue
+        Guna2Button12.Font = New Font("Segoe UI", 10F)
+        Guna2Button12.ForeColor = Color.White
+        Guna2Button12.Image = CType(resources.GetObject("Guna2Button12.Image"), Image)
+        Guna2Button12.ImageAlign = HorizontalAlignment.Right
+        Guna2Button12.ImageSize = New Size(30, 30)
+        Guna2Button12.Location = New Point(956, 33)
+        Guna2Button12.Name = "Guna2Button12"
+        Guna2Button12.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Button12.Size = New Size(160, 53)
+        Guna2Button12.TabIndex = 5
+        Guna2Button12.Text = "Deposit"
+        Guna2Button12.TextAlign = HorizontalAlignment.Left
         ' 
         ' Guna2DataGridView1
         ' 
@@ -527,54 +575,6 @@ Partial Class Form6
         Guna2CirclePictureBox1.TabIndex = 0
         Guna2CirclePictureBox1.TabStop = False
         ' 
-        ' Guna2Button12
-        ' 
-        Guna2Button12.BorderColor = Color.DarkGray
-        Guna2Button12.BorderRadius = 20
-        Guna2Button12.BorderThickness = 2
-        Guna2Button12.CustomizableEdges = CustomizableEdges5
-        Guna2Button12.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button12.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button12.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button12.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button12.FillColor = Color.Blue
-        Guna2Button12.Font = New Font("Segoe UI", 10F)
-        Guna2Button12.ForeColor = Color.White
-        Guna2Button12.Image = CType(resources.GetObject("Guna2Button12.Image"), Image)
-        Guna2Button12.ImageAlign = HorizontalAlignment.Right
-        Guna2Button12.ImageSize = New Size(30, 30)
-        Guna2Button12.Location = New Point(956, 33)
-        Guna2Button12.Name = "Guna2Button12"
-        Guna2Button12.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Button12.Size = New Size(160, 53)
-        Guna2Button12.TabIndex = 5
-        Guna2Button12.Text = "Deposit"
-        Guna2Button12.TextAlign = HorizontalAlignment.Left
-        ' 
-        ' Guna2Button9
-        ' 
-        Guna2Button9.BorderColor = Color.DarkGray
-        Guna2Button9.BorderRadius = 20
-        Guna2Button9.BorderThickness = 2
-        Guna2Button9.CustomizableEdges = CustomizableEdges3
-        Guna2Button9.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button9.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button9.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button9.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button9.FillColor = Color.Blue
-        Guna2Button9.Font = New Font("Segoe UI", 10F)
-        Guna2Button9.ForeColor = Color.White
-        Guna2Button9.Image = CType(resources.GetObject("Guna2Button9.Image"), Image)
-        Guna2Button9.ImageAlign = HorizontalAlignment.Right
-        Guna2Button9.ImageSize = New Size(30, 30)
-        Guna2Button9.Location = New Point(1308, 33)
-        Guna2Button9.Name = "Guna2Button9"
-        Guna2Button9.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button9.Size = New Size(160, 53)
-        Guna2Button9.TabIndex = 6
-        Guna2Button9.Text = "Grant Loan"
-        Guna2Button9.TextAlign = HorizontalAlignment.Left
-        ' 
         ' Form6
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
@@ -583,6 +583,7 @@ Partial Class Form6
         Controls.Add(Guna2CustomGradientPanel1)
         Name = "Form6"
         Text = "Transactions"
+        WindowState = FormWindowState.Maximized
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel1.PerformLayout()
         Guna2CustomGradientPanel8.ResumeLayout(False)

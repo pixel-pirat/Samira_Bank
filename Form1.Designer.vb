@@ -32,13 +32,13 @@ Partial Class Form1
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Guna2CustomGradientPanel2 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         CuiTextBox23 = New CuoreUI.Controls.cuiTextBox2()
         CuiTextBox22 = New CuoreUI.Controls.cuiTextBox2()
         CuiTextBox21 = New CuoreUI.Controls.cuiTextBox2()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2CustomGradientPanel1.SuspendLayout()
         Guna2CustomGradientPanel2.SuspendLayout()
         SuspendLayout()
@@ -77,6 +77,15 @@ Partial Class Form1
         Guna2CustomGradientPanel2.ShadowDecoration.Shadow = New Padding(0, 0, 20, 20)
         Guna2CustomGradientPanel2.Size = New Size(568, 676)
         Guna2CustomGradientPanel2.TabIndex = 1
+        ' 
+        ' Guna2HtmlLabel2
+        ' 
+        Guna2HtmlLabel2.BackColor = Color.Transparent
+        Guna2HtmlLabel2.Location = New Point(99, 554)
+        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Guna2HtmlLabel2.Size = New Size(210, 27)
+        Guna2HtmlLabel2.TabIndex = 6
+        Guna2HtmlLabel2.Text = "Already Have an Account? "
         ' 
         ' Guna2Button2
         ' 
@@ -204,15 +213,6 @@ Partial Class Form1
         CuiTextBox21.TextOffset = New Size(0, 0)
         CuiTextBox21.UnderlinedStyle = False
         ' 
-        ' Guna2HtmlLabel2
-        ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Location = New Point(99, 554)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(210, 27)
-        Guna2HtmlLabel2.TabIndex = 6
-        Guna2HtmlLabel2.Text = "Already Have an Account? "
-        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
@@ -220,7 +220,9 @@ Partial Class Form1
         ClientSize = New Size(1898, 1024)
         Controls.Add(Guna2CustomGradientPanel1)
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Sign Up"
+        WindowState = FormWindowState.Maximized
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel2.ResumeLayout(False)
         Guna2CustomGradientPanel2.PerformLayout()

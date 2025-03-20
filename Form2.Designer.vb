@@ -217,6 +217,7 @@ Partial Class Form2
         Controls.Add(Guna2CustomGradientPanel1)
         Name = "Form2"
         Text = "Log In"
+        WindowState = FormWindowState.Maximized
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel2.ResumeLayout(False)
         Guna2CustomGradientPanel2.PerformLayout()
