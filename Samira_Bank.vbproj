@@ -18,6 +18,9 @@
     <PackageReference Include="CuoreUI.Winforms" Version="2025.3.3" />
     <PackageReference Include="Guna.Charts.WinForms" Version="1.1.0" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="System.Data.OleDb" Version="9.0.3" />
   </ItemGroup>
 
   <ItemGroup>
